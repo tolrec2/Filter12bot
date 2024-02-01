@@ -220,14 +220,11 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 IMDb Data:
 
-<b>🏷 Title</b>: <a href={url}>{title}</a>
-🎭 Genres: {genres}
-📆 Year: <a href={url}/releaseinfo>{year}</a>
-🌟 Rating: <a href={url}/ratings>{rating}</a> / 10 (based on {votes} user ratings.)
-☀️ Languages : <code>{languages}</code>
-📀 RunTime: {runtime} Minutes
-📆 Release Info : {release_date}
-🎛 Countries : <code>{countries}</code>
+<b>🎬 **𝘛𝘐𝘛𝘓𝘌**</b>: <a href={url}>{title}</a>
+🧞‍♂️ **𝘎𝘌𝘕𝘌𝘙𝘌𝘚**: **{genres}**
+🗓️ **𝘠𝘌𝘈𝘙**: <a href={url}/releaseinfo>{year}</a>
+🎙️ **𝘓𝘈𝘕𝘎𝘜𝘈𝘎𝘌** : **{languages}**
+
 
 
 ⏰Result Shown in: {remaining_seconds} <i>seconds</i> 🔥
