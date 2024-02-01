@@ -213,6 +213,8 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 <b> Size ⚙️: {file_size}</b>""" 
 
+    BATCH_FILE_CAPTION = """{file_caption}"""
+
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
 
