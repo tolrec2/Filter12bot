@@ -181,7 +181,7 @@ async def start(client, message):
                     caption=f_caption,
                     protect_content=msg.get('protect', False),
                     reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('⚡️ 𝗕𝗟𝗔𝗦𝗧𝗘𝗥 𝗜𝗡𝗗𝗘𝗫 ⚡️', url=f"https://t.me/blasterindex") ] ] ))
-                ok = await message.reply(test message)
+                ok = await message.reply(DELETE_TXT)
                 await asyncio.sleep(300)
                 await f.delete()
                 await ok.delete()
