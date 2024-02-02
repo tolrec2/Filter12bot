@@ -217,18 +217,17 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
-
-IMDb Data:
+Requested by : {message.from_user.mention}</b>"""
 
 <b>🎬 𝘛𝘐𝘛𝘓𝘌</b>: <a href={url}>{title}</a>
 🧞‍♂️ 𝘎𝘌𝘕𝘌𝘙𝘌𝘚: {genres}
 🗓 𝘠𝘌𝘈𝘙: <a href={url}/releaseinfo>{year}</a>
 🎙 𝘓𝘈𝘕𝘎𝘜𝘈𝘎𝘌 : {languages}
-📯<b>𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖡𝗒</b>
+📯<b>𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖡𝗒</b> <a href='https://t.me/ALLNEWMOVIEZSCOM'>𝗔𝗟𝗟 𝗡𝗘𝗪 𝗠𝗢𝗩𝗜𝗘𝗭𝗦 𝗖𝗢𝗠</a>
 <a href='https://t.me/ALLNEWMOVIEZSCOM'>𝗔𝗟𝗟 𝗡𝗘𝗪 𝗠𝗢𝗩𝗜𝗘𝗭𝗦 𝗖𝗢𝗠</a>
 
 ⏰Result Shown in: {remaining_seconds} <i>seconds</i> 🔥
-Requested by : {message.from_user.mention}</b>"""
+
     
     ALL_FILTERS = """
 <b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
