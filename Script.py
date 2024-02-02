@@ -219,11 +219,11 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 <b>Query: {qurey}
 Requested by : {message.from_user.mention}</b>
 
-<b>🏷 𝗧𝗜𝗧𝗟𝗘</b>: <b href={url}>{title}</b>
-🎭 𝗚𝗘𝗡𝗘𝗥𝗘𝗦: {genres}
-🗓 𝗬𝗘𝗔𝗥: <b href={url}/releaseinfo>{year}</b>
-🗣 𝗟𝗔𝗡𝗚𝗨𝗔𝗚𝗘 : {languages}
-📯<b>𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖡𝗒</b> <a href='https://t.me/ALLNEWMOVIEZSCOM'>𝗔𝗟𝗟 𝗡𝗘𝗪 𝗠𝗢𝗩𝗜𝗘𝗭𝗦 𝗖𝗢𝗠</a>
+<b>🏷 𝗧𝗜𝗧𝗟𝗘</b>: <a href={url}>{title}</a>
+🎭 <b>𝗚𝗘𝗡𝗘𝗥𝗘𝗦</b>: {genres}
+🗓 <b>𝗬𝗘𝗔𝗥</b>: <a href={url}/releaseinfo>{year}</a>
+🗣 <b>𝗟𝗔𝗡𝗚𝗨𝗔𝗚𝗘</b> : {languages}
+📯<b>𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖡𝗒</b> : <a href='https://t.me/ALLNEWMOVIEZSCOM'>𝗔𝗟𝗟 𝗡𝗘𝗪 𝗠𝗢𝗩𝗜𝗘𝗭𝗦 𝗖𝗢𝗠</a>
 
 ⏰Result Shown in: {remaining_seconds} <i>seconds</i> 🔥"""
 
