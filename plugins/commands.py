@@ -152,7 +152,7 @@ async def start(client, message):
                 f_caption = f"{title}"
             try:
                 # Create the inline keyboard button with callback_data
-                snd_msg = await client.send_cached_media(
+                await client.send_cached_media(
                     chat_id=message.from_user.id,
                     file_id=msg.get("file_id"),
                     caption=f_caption,
@@ -177,7 +177,7 @@ async def start(client, message):
             except FloodWait as e:
                 await asyncio.sleep(e.x)
                 logger.warning(f"Floodwait of {e.x} sec.")
-                snd_msg = await client.send_cached_media(
+                await client.send_cached_media(
                     chat_id=message.from_user.id,
                     file_id=msg.get("file_id"),
                     caption=f_caption,
