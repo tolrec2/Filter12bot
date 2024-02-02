@@ -152,7 +152,7 @@ async def start(client, message):
                 f_caption = f"{title}"
             try:
                 # Create the inline keyboard button with callback_data
-                await client.send_cached_media(
+                snd_msg = await client.send_cached_media(
                     chat_id=message.from_user.id,
                     file_id=msg.get("file_id"),
                     caption=f_caption,
@@ -172,10 +172,12 @@ async def start(client, message):
                         ]
                     )
                 )
+                await asyncio.sleep(3600)
+                await snd_msg.edit("This Message Had Been Deleted")
             except FloodWait as e:
                 await asyncio.sleep(e.x)
                 logger.warning(f"Floodwait of {e.x} sec.")
-                await client.send_cached_media(
+                snd_msg = await client.send_cached_media(
                     chat_id=message.from_user.id,
                     file_id=msg.get("file_id"),
                     caption=f_caption,
@@ -193,6 +195,8 @@ async def start(client, message):
                         ]
                     )
                 )
+                await asyncio.sleep(3600)
+                await snd_msg.edit("This Message Had Been Deleted :)")
             except Exception as e:
                 logger.warning(e, exc_info=True)
                 continue
