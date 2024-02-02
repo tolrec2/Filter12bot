@@ -217,7 +217,7 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
-Requested by : {message.from_user.mention}</b>"""
+Requested by : {message.from_user.mention}</b>
 
 <b>🎬 𝘛𝘐𝘛𝘓𝘌</b>: <a href={url}>{title}</a>
 🧞‍♂️ 𝘎𝘌𝘕𝘌𝘙𝘌𝘚: {genres}
@@ -226,7 +226,7 @@ Requested by : {message.from_user.mention}</b>"""
 📯<b>𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖡𝗒</b> <a href='https://t.me/ALLNEWMOVIEZSCOM'>𝗔𝗟𝗟 𝗡𝗘𝗪 𝗠𝗢𝗩𝗜𝗘𝗭𝗦 𝗖𝗢𝗠</a>
 <a href='https://t.me/ALLNEWMOVIEZSCOM'>𝗔𝗟𝗟 𝗡𝗘𝗪 𝗠𝗢𝗩𝗜𝗘𝗭𝗦 𝗖𝗢𝗠</a>
 
-⏰Result Shown in: {remaining_seconds} <i>seconds</i> 🔥
+⏰Result Shown in: {remaining_seconds} <i>seconds</i> 🔥"""
 
     
     ALL_FILTERS = """
