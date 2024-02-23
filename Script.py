@@ -224,8 +224,8 @@ Requested by : {message.from_user.mention}</b>
 🗓 <b>𝗬𝗘𝗔𝗥</b>: <a href={url}/releaseinfo>{year}</a>
 🗣 <b>𝗟𝗔𝗡𝗚𝗨𝗔𝗚𝗘</b> : {languages}
 📯<b>𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖡𝗒</b> : <a href='https://t.me/ALLNEWMOVIEZSCOM'>𝗔𝗟𝗟 𝗡𝗘𝗪 𝗠𝗢𝗩𝗜𝗘𝗭𝗦 𝗖𝗢𝗠</a>
-<blockquote>TEST</blockquote>
 <spoiler>spoiler</spoiler>
+<blockquote>quote</blockquote>
 ⏰Result Shown in: {remaining_seconds} <i>seconds</i> 🔥"""
 
     
